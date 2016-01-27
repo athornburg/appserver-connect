@@ -1,5 +1,8 @@
 *.class
 
+.idea/
+ProgressTesting.iml
+
 # Package Files #
 *.war
 *.ear

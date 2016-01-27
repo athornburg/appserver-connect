@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args)
     {
 
-        Connection connection = new Connection("AppServerDC://localhost:3090","","");
+        Connection connection = new Connection("AppServerDC://192.168.10.251:19926","","");
         try {
             Round round = new Round(connection);
             RoundTrip roundTrip = round.createPO_RoundTrip();
